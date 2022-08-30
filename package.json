@@ -1,18 +1,18 @@
 {
   "name": "gif.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JavaScript GIF encoding library",
   "author": "Johan Nordberg <code@johan-nordberg.com>",
   "main": "index.js",
-  "repository": "https://github.com/jnordberg/gif.js.git",
+  "repository": "https://github.com/mcerejo/gif.js.git",
   "devDependencies": {
-    "browserify": "^13.1.1",
-    "coffeeify": "^2.1.0",
-    "exorcist": "^0.4.0",
+    "browserify": "latest",
+    "coffeeify": "latest",
+    "exorcist": "latest",
     "uglify-js": "^2.7.5"
   },
   "scripts": {
-    "prepublish": "./bin/build"
+	  "prepublish": "./bin/build"
   },
   "browser": "./dist/gif.js",
   "keywords": [
